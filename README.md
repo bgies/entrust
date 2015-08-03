@@ -45,6 +45,8 @@ to your composer.json. Then run `composer install` or `composer update`.
 Then in your `config/app.php` add 
 ```php
     'Zizaco\Entrust\EntrustServiceProvider'
+    
+    or for Laravel 5.1 Zizaco\Entrust\EntrustServiceProvider::class 
 ```    
 in the `providers` array and
 ```php
